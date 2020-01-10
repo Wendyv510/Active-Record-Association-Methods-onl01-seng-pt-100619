@@ -17,6 +17,5 @@ class Genre < ActiveRecord::Base
    artists = self.artists.map do |artist|
     artist.names
     end 
-    artists
   end
 end
